@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+		<run>
+			<include name="Regression test"/>
+		</run>
+	</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="crm_project_SDET13.TC_02_CreateOrgWithIndustry_Test"/>
+      <class name="crm_project_SDET13.TC_03_CreateOrganisationWithType_Test"/>
+      <class name="crm_project_SDET13.TC_04_VerifyIndustryDropDown_Test"/>
+      <class name="crm_project_SDET13.TC_01_CreateOrganisation_Test"/>
+      <class name="crm_project_SDET13.TC_05_VerifyTypeDropDown_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
