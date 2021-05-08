@@ -9,7 +9,7 @@ import com.crm.vtiger.organizationPomClass.CreateOrganizationPage;
 import com.crm.vtiger.organizationPomClass.OrganizationInformationPage;
 import com.crm.vtiger.organizationPomClass.OrganizationPage;
 
-public class TC_05_CreateOrganizationWithAssignedToGroup extends BaseClass {
+public class TC_05_CreateOrganizationWithAssignedToGroupTest extends BaseClass {
 	@Test
 	public void createOrgWithgroup() throws Throwable {
 		// fetch the test case data

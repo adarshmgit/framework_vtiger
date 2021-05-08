@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vtiger.organizationModuleTest.TC_05_CreateOrganizationWithAssignedToGroup">
+      <class name="com.crm.vtiger.organizationModuleTest.TC_01_CreateOrganisation_Test">
         <methods>
           <include name="configAT"/>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="setUp"/>
-          <include name="createOrgWithgroup"/>
+          <include name="createOrganisation"/>
           <include name="tearDown"/>
           <include name="configAS"/>
           <include name="configBT"/>
           <include name="configAC"/>
         </methods>
-      </class> <!-- com.crm.vtiger.organizationModuleTest.TC_05_CreateOrganizationWithAssignedToGroup -->
+      </class> <!-- com.crm.vtiger.organizationModuleTest.TC_01_CreateOrganisation_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
