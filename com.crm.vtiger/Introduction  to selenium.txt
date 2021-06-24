@@ -1,0 +1,58 @@
+Q) What is automation testing?
+ans: One software testing another software to verify the expected outcome and actual outcome are matching or         not. Manual test cases are the base documents for for automation scripts.
+Q)What is Selenium?
+ans: Selenium is the opensource test automation tool which is used to test web application.
+* Web application-->Any application which is accessed through browser over the network.
+*Open source means free to download and use.
+*And source is open for customization/modification.
+*And we can distribute it after customization(means we can integrate third party tool)
+*Selenium build using java programming language(build in support for java)
+
+Advantages of Selenium
+===================
+* Selenium tool supports 14+ programming languages.
+* Selenium tool supports 6 major browsers(chrome,firefox,IE,safari,opera,edge) and also 2 headless/transperant    browsers  (phantomjs and HTML unit).
+* Selenium tool supports all three operating systems(windows,linux,Mac os).
+* We can perform cross browser testing.
+* Helps to do compatability testing.
+
+Disadvantages
+=============
+* It can only test webApplications, that is it cannot test standalone applications.
+
+Difference between Selenium and QTP
+================================================================
+Selenium                                                                   QTP
+-----------------------------------------------------------------------------------------------------------
+1)Open Source                                                 1)Licensed tool
+2)Supports major operating system               2)Supports only windows operating system
+3)Supports 14+ programming language        3)Supports only one programming language that is VBScripting
+4)Supports multiple browsers                        4)Supports only one browser that is IE/Edge
+5)It can automate only webapplication          5)It can automate web and standalone applications
+
+Components of selenium
+====================
+1)Selenium core
+2)Selenium RC
+3)Selenium IDE
+4)Selenium Webdriver
+5)Appium
+6)Winium
+7)Selendroid
+8)Selenium grid
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
